@@ -1,0 +1,175 @@
+.nav-link{
+   color:white;
+   justify-content: flex-end;
+   display: flex;
+  
+}
+.nav-link:hover{
+    background-color: rgb(139, 139, 139,0);
+    color: rgb(246, 9, 9);
+    opacity: calc(0.9);
+ 
+}
+.top-logo{
+    padding: 1px;
+}
+.nav-item{
+    padding: 10px;
+    font: bold;
+}
+.nav-bar-down{
+    background-color: rgb(0,0,0,0.45);
+    margin-top: 30px;
+    margin-left:20px;
+    margin-right:15px;
+    padding-top:15px;
+    padding-bottom: 15px;    
+}
+.image1{
+    background-image: url(./image-1.jpg);
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;    
+    top: 0%;
+    left: 0%;
+}
+.image1-text{
+    justify-content: center;
+    text-align: center;
+    margin-top: 35%;
+    left: 60%;
+    font-size: 25px;
+    color:rgba(211, 236, 247, 0.935);    
+}
+.pic{
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;   
+}
+.container-1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    background-color: #eb664b;
+}
+.book{
+    padding: 30px;
+    font-size: 30px;
+}
+.button-color{
+    color: rgb(255, 255, 255);
+    background-color: rgba(255,255,255, 0.25);
+    margin: 50px;
+    padding: 5%;
+    margin-left: 20px;
+}
+.button-color:hover{
+    color: rgb(240, 242, 243);
+    background-color: rgb(193, 57, 19);
+}
+.subheading{
+    font-size: 40px;
+    margin-top: 40%;
+    font-family: 'Dancing script', cursive;
+    color: red;
+
+}
+.privatee{
+    margin-top: 0%;
+    padding: 100px;
+    width: 100%;
+    background-color: rgb(0, 0, 0,0.5);
+    align-items: center;
+    color: white;
+    background: url(./pngtree-dark-room-with-beer-bar-image_2508320.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border: 1px solid white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hero{
+    background-image:url("./Chef_Hero_Image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size:cover; */
+    background-size:contain;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.inner_row col-md-4{
+    width:fit-content;
+}
+.menu_list{
+        padding :50px 30px;
+        /* margin:2px 2px 2px 2px; */
+}
+.img{
+    width:100%;
+    height:auto;
+}
+.img1{
+    height:auto;
+    width:100%;
+}
+.inner_row{
+        border-bottom: 2px dashed red;
+        padding:20px 0px;
+}
+.inner_row .col-md-4 p{
+    font-weight:500;
+}
+.inner_row .col-md-3 p{
+font-weight:500;
+color:brown;
+}
+.carousel-item .card{
+    background: transparent;
+}
+.carousel-item .card .card-body .card-text{
+    font-size:20px;
+}
+.pt{
+    padding-top:5%;
+    padding-bottom:5%;
+}
+.footer-btn{
+    background-color: transparent;
+    color:white;
+    border:1px solid white
+}
+.footer-btn:hover{
+    background-color: white;
+    color:red;
+}
+.txt{
+    color:white;
+    opacity: 0.5;
+}
+.footer{
+    background-color: black;
+    opacity: 0.9;
+}
+/* .cards{
+    margin-bottom: 20%;
+} */
+.cards:hover{
+    border-bottom: 5px solid red;
+}
+.card:hover{
+    width: 110%;
+    /* rotate: 10deg; */
+}
+
